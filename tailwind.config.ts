@@ -20,6 +20,12 @@ const config: Config = {
         "fourth-color": "#1A659B",
         "fifth-color": "#2D9CAA",
       },
+      keyframes: {
+        showSideBar: {
+          from: { opacity: "0", transform: "translatex(80px)" },
+          to: { oapcity: "1", transform: "translatex(0)" },
+        },
+      },
     },
   },
   plugins: [],
