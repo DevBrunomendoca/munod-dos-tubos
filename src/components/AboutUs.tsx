@@ -26,6 +26,11 @@ const AboutUs = () => {
             textCard="Variedade de Produtos"
             iconCard="/icon-variedade.png"
           />
+        </div>
+        <div
+          className="flex flex-wrap items-center justify-center place-items-center w-full gap-4 md:grid-cols-3"
+          style={{ maxWidth: "800px" }}
+        >
           <CardAbout
             className="bg-fourth-color"
             textCard="Qualidade superior"
@@ -37,7 +42,7 @@ const AboutUs = () => {
             iconCard="/icon-inovacao.png"
           />
           <CardAbout
-            className="bg-fourth-color"
+            className="bg-fourth-color "
             textCard="Entrega Pontual"
             iconCard="/icon-entrega.png"
           />

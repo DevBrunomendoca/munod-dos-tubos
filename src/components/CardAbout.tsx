@@ -14,8 +14,8 @@ const CardAbout: FunctionComponent<CardAboutProps> = ({
 }) => {
   return (
     <div
-      className={`${className}  px-3 py-4  rounded-md flex flex-col items-center gap-4 `}
-      style={{ maxWidth: "190px", minHeight: "150px" }}
+      className={`${className} w-full  px-3 py-4  rounded-md flex flex-col items-center gap-4 `}
+      style={{ maxWidth: "200px", minHeight: "150px" }}
     >
       <Image width={40} height={40} alt="Icone card" src={iconCard} />
       <h4 className="text-xl text-center text-first-color">{textCard}</h4>
