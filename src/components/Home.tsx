@@ -11,9 +11,14 @@ const Home = () => {
 
   useEffect(() => {
     const handleSize = () => {
-      window.innerWidth > 768 ? setBannerHome(true) : setBannerHome(false);
+      window.innerWidth < 768 ? setBannerHome(true) : setBannerHome(false);
     };
-  });
+    handleSize();
+    window.addEventListener("resize", handleSize);
+    return () => {
+      window.removeEventListener("resize", handleSize);
+    };
+  }, []);
   return (
     <section className="w-full relative">
       {bannerHome ? (
@@ -38,7 +43,7 @@ const Home = () => {
         />
       )}
 
-      <div className="absolute mr-44 top-4 w-full h-full px-2 py-2 flex flex-col items-start justify-center gap-4 md:max-w-7xl  xl:right-0 ">
+      <div className="absolute top-4 w-full h-full px-2 py-2 flex flex-col items-start justify-center gap-4 xl:max-w-7xl ml-auto mr-auto left-0 right-0">
         <Title textTitle="A MELHOR SOLUÇÃO EM TUBOS, CONEXÕES E VÁLVULAS" />
         <Paragraph
           textParagraph="Somos uma empresa especializada em tubos, conexoes e válvulas para diversos segmentos como construção civil , saneamento básico e sistemas hidráulicos."
