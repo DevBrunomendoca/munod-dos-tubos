@@ -4,6 +4,12 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import SideBar from "./SideBar";
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  weight: ["700"],
+  subsets: ["latin"],
+});
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -56,29 +62,33 @@ const Header = () => {
 
   return (
     <>
-      <header className="absolute z-10 bg-first-color flex items-center justify-between w-full px-2 py-2 lg:max-w-screen-xl m-auto">
-        <Link href="/">
-          <Image src="/logo.png" alt="Logo" width={126} height={52} />
-        </Link>
-        <nav className=" hidden md:flex items-center gap-4">
-          <ul className="text-third-color text-basetext-base w-full flex justify-between gap-4 ">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/aboutus">Sobre Nós</Link>
-            </li>
-            <li>
-              <Link href="/products">Produtos</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contato</Link>
-            </li>
-          </ul>
-        </nav>
-        <button className="hidden md:block bg-second-color text-first-color px-8 py-3 rounded-md">
-          Entrar em contato
-        </button>
+      <header className="absolute z-10 flex items-center justify-between w-full bg-first-color">
+        <div className="max-w-7xl m-auto flex items-center justify-between w-full px-2 py-2 ">
+          <Link href="/">
+            <Image src="/logo.png" alt="Logo" width={126} height={52} />
+          </Link>
+          <nav className=" hidden md:flex items-center gap-4">
+            <ul
+              className={`text-third-color text-basetext-base w-full flex justify-between gap-4 ${lato.className}`}
+            >
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/aboutus">Sobre Nós</Link>
+              </li>
+              <li>
+                <Link href="/products">Produtos</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contato</Link>
+              </li>
+            </ul>
+          </nav>
+          <button className="hidden md:block bg-second-color text-first-color px-8 py-3 rounded-md">
+            Entrar em contato
+          </button>
+        </div>
         <MenuIcon
           onClick={openMenu}
           className="bg-first-color text-third-color cursor-pointer md:hidden"

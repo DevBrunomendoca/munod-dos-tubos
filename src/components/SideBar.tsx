@@ -11,7 +11,7 @@ const SideBar = forwardRef<HTMLDivElement, SideBarProps>(({ onClick }, ref) => {
   return (
     <div
       ref={ref}
-      className="absolute z-20 right-0 w-4/6 h-full bg-first-color flex items-end flex-col px-3 py-5 animate-[showSideBar_.8s_ease-in-out]"
+      className="absolute z-20 right-0 w-4/6 h-screen bg-first-color flex items-end flex-col px-3 py-5 animate-[showSideBar_.8s_ease-in-out]"
     >
       <CloseIcon
         onClick={onClick}
