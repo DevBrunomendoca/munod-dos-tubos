@@ -19,7 +19,7 @@ const SideBar = forwardRef<HTMLDivElement, SideBarProps>(({ onClick }, ref) => {
         fontSize="large"
       />
       <nav>
-        <ul className="text-third-color w-full flex flex-col gap-6 text-end py-10">
+        <ul className="text-third-color text-lg w-full flex flex-col gap-4 text-end py-10">
           <li onClick={onClick}>
             <Link href="/">Home</Link>
           </li>
@@ -34,7 +34,9 @@ const SideBar = forwardRef<HTMLDivElement, SideBarProps>(({ onClick }, ref) => {
           </li>
         </ul>
       </nav>
-      <button>Text Button</button>
+      <button className="bg-second-color text-first-color px-8 py-3 rounded-md">
+        Entrar em contato
+      </button>
     </div>
   );
 });
