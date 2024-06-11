@@ -4,9 +4,27 @@ import useProducts from "./useDataProducts";
 import ThirdTitle from "./ThirdTitle";
 import Paragraph from "./Paragraph";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const ProductsTubos = () => {
   const { dataSlideTubos } = useProducts();
+
+  const [slidePreview, setSlidePreview] = useState<number>(2);
+
+  useEffect(() => {
+    const handleResize = () => {
+      window.innerWidth < 550
+        ? setSlidePreview(2)
+        : innerWidth < 1024
+        ? setSlidePreview(3)
+        : setSlidePreview(4);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className="px-2 py-8 ">
@@ -18,7 +36,7 @@ const ProductsTubos = () => {
       </h2>
       <Swiper
         loop={true}
-        slidesPerView={2}
+        slidesPerView={slidePreview}
         centeredSlides={false}
         spaceBetween={0}
         autoplay={{
