@@ -10,7 +10,7 @@ export default function useProducts() {
     {
       id: "1",
       imgCard: "/products/tubos-1.png",
-      titleCard: "Tubos de aço carbono",
+      titleCard: "Tubos de aço carbono (com e sem costuras)",
       contentCard:
         "Versáteis e duráveis, os tubos de aço carbono são amplamente utilizados em aplicações industriais e estruturais.",
     },

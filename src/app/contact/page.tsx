@@ -37,17 +37,22 @@ const Contact: FunctionComponent = () => {
         >
           <CardContact
             iconCard="/icone-tel.png"
-            textCard="Ligue ou nos mande uma menssagem de texto "
+            textCard="Ligue ou nos mande uma menssagem de texto."
             textButton="Telefone"
           />
           <CardContact
             iconCard="/icon-wtpp.png"
-            textCard="Entre em contato através do whatsapp "
+            textCard="Entre em contato através do whatsapp."
             textButton="Whatsapp"
           />
           <CardContact
+            iconCard="/icon-insta2.png"
+            textCard="Nos Conheça através das redes sociais."
+            textButton="Instagra"
+          />
+          <CardContact
             iconCard="/icon-email-b.png"
-            textCard="Deixe seu feedback através do email"
+            textCard="Deixe seu feedback através do email."
             textButton="Email"
           />
         </div>

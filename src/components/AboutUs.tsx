@@ -12,7 +12,10 @@ const AboutUs = () => {
           className="text-center text-third-color"
           textSecondTitle="Vantagens exclusivas ao escolher nossos serviços!"
         />
-        <div className=" w-full flex flex-wrap items-center justify-center justify-items-center gap-4">
+        <div
+          className=" flex  flex-wrap items-center justify-center gap-4"
+          style={{ maxWidth: "800px" }}
+        >
           <CardAbout
             className="bg-fifth-color"
             textCard="Atendimento Personalizado"

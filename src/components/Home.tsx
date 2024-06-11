@@ -18,9 +18,7 @@ const Home = () => {
       <div className="absolute top-4 w-full h-full px-2 py-2 flex flex-col items-start justify-center gap-4">
         <Title textTitle="A MELHOR SOLUÇÃO EM TUBOS, CONEXÕES E VÁLVULAS" />
         <Paragraph
-          textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões
-          industriais para diversos segmentos, construção civil, industriais,
-          saneamento básico e sistemas hidráulicos."
+          textParagraph="Somos uma empresa especializada em tubos, conexoes e válvulas para diversos segmentos como construção civil , saneamento básico e sistemas hidráulicos."
           textColor="text-first-color"
         />
         <ButtonNav textButton="Fazer um Orçamento" href="/contact" />

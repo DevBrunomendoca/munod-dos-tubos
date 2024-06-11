@@ -29,7 +29,7 @@ const Footer = () => {
       <section className="bg-second-color flex flex-col gap-4 px-2 py-4">
         <Image src="/logo2.png" alt="Logo" width={126} height={52} />
         <Paragraph
-          textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos, construção civil, industriais, saneamento básico e sistemas hidráulicos"
+          textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos"
           textColor="text-first-color"
         />
         <div className="flex flex-col gap-3">
@@ -53,6 +53,10 @@ const Footer = () => {
               textParagraph="Rua m22 qd.23 lt.30 resid.Monte Cristo Trindade-GO"
               textColor="text-first-color"
             />
+          </div>
+          <div className="flex items-center gap-2">
+            <Image width={25} height={25} alt="" src="/icon-insta.png" />
+            <Paragraph textParagraph="@intagram" textColor="text-first-color" />
           </div>
         </div>
         <div>

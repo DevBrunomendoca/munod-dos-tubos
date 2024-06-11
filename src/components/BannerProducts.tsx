@@ -13,7 +13,7 @@ const BannerProducts = () => {
     >
       <SecondTitle
         textSecondTitle="Confira à nossa linha de produtos a baixo"
-        className="text-first-color"
+        className="text-first-color text-center"
       />
       <a href="#products-section">
         <Image

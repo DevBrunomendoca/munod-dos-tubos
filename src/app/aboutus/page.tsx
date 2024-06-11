@@ -26,7 +26,7 @@ const About = () => {
         <div className="absolute top-4 flex flex-col items-start justify-center gap-4 px-2 h-full">
           <Title textTitle="Quem Somos, Conheça Nossa História:" />
           <Paragraph
-            textParagraph="Nosso foco primordial reside na excelência, tanto em termos de produtos quanto de serviços."
+            textParagraph="Nossa história começou em 2010  atuando com materiais hidráulicos, garantindo 16 anos de experiência."
             textColor="text-first-color"
           />
         </div>
@@ -38,7 +38,7 @@ const About = () => {
             className="text-third-color "
           />
           <Paragraph
-            textParagraph="Localizada no centro oeste, nossa empresa é uma referência de excelência na distribuição de produtos especializados. Com décadas de experiência no mercado, construímos uma reputação sólida baseada em qualidade, confiabilidade e inovação. Nossa extensa linha de produtos abrange uma variedade de setores."
+            textParagraph="Localizada no centro oeste, nossa empresa é uma referência de excelência na distribuição de produtos especializados. Com 16 anos de experiência no mercado, construímos uma reputação sólida baseada em qualidade, confiabilidade e inovação. Nossa extensa linha de produtos abrange uma variedade de setores."
             textColor="text-third-color"
           />
           <ButtonNav href="/contact" textButton="Fazer um Orçamento" />
@@ -50,18 +50,16 @@ const About = () => {
             className="w-full"
           />
         </div>
-        <div className="px-2 py-4 flex flex-col gap-4">
+        <div className="px-2 py-6 flex flex-col gap-6">
           <p
             style={{ borderLeft: "3px solid #1F2731" }}
             className={`pl-3 ${poppins.className}`}
           >
-            O segredo do nosso sucesso reside na combinação de tecnologia de
-            ponta e uma equipe altamente qualificada. Investimos continuamente
-            em pesquisa e desenvolvimento para garantir que nossos produtos
-            atendam e superem os padrões mais exigentes. Além disso, nossa
-            equipe de especialistas em vendas está comprometida em fornecer
-            soluções de entrega eficientes e pontuais, garantindo que os
-            produtos cheguem aos nossos clientes quando e onde são necessários.
+            O segredo do nosso sucesso reside na combinação de produtos com
+            qualidade verificada. Além disso, nossa equipe de especialistas em
+            vendas está comprometida em fornecer soluções de entrega eficientes
+            e pontuais, garantindo que os produtos cheguem aos nossos clientes
+            quando e onde são necessários.
           </p>
           <p
             style={{ borderLeft: "3px solid #1F2731" }}
