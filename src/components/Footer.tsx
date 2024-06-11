@@ -4,13 +4,14 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full">
+    <footer className="w-full flex flex-col items-center bg-second-color ">
       <section
-        className="px-2 flex flex-col items-center justify-center gap-4"
+        className="px-2 flex flex-col items-center justify-center gap-4 w-full"
         style={{
           backgroundImage: "url('/banner-footer.png')",
           backgroundSize: "cover",
-          minHeight: "500px",
+          backgroundPosition: "end",
+          minHeight: "400px",
         }}
       >
         <h3 className="text-2xl text-first-color">Horários de funcionamento</h3>
@@ -26,13 +27,16 @@ const Footer = () => {
         </div>
       </section>
 
-      <section className="bg-second-color flex flex-col gap-4 px-2 py-4">
-        <Image src="/logo2.png" alt="Logo" width={126} height={52} />
-        <Paragraph
-          textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos"
-          textColor="text-first-color"
-        />
-        <div className="flex flex-col gap-3">
+      <section className="bg-second-color  flex flex-col items-start w-full gap-4 px-2 py-4 md:flex-row  justify-between max-w-7xl m-auto">
+        <div className="flex flex-col items-start gap-4 max-w-sm">
+          <Image src="/logo2.png" alt="Logo" width={126} height={52} />
+          <Paragraph
+            textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos"
+            textColor="text-first-color"
+          />
+        </div>
+
+        <div className="flex flex-col gap-3 ">
           <div className="flex items-center gap-2">
             <Image width={25} height={25} alt="" src="/icon-tel.png" />
             <Paragraph
@@ -75,13 +79,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <Paragraph
-            textParagraph="2024© - Todos os direitos reservados."
-            textColor="text-first-color"
-          />
-        </div>
       </section>
+      <div className="bg-second-color text-start w-full px-2 py-4 md:text-center">
+        <Paragraph
+          textParagraph="2024© - Todos os direitos reservados."
+          textColor="text-first-color"
+        />
+      </div>
     </footer>
   );
 };

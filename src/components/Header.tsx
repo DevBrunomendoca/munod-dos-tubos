@@ -56,7 +56,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="absolute z-10 bg-first-color flex items-center justify-between w-full px-2 py-2">
+      <header className="absolute z-10 bg-first-color flex items-center justify-between w-full px-2 py-2 lg:max-w-screen-xl m-auto">
         <Link href="/">
           <Image src="/logo.png" alt="Logo" width={126} height={52} />
         </Link>

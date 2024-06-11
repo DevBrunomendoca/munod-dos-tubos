@@ -5,7 +5,7 @@ interface TitleProps {
 }
 
 const Title: FunctionComponent<TitleProps> = ({ textTitle }) => {
-  return <h1 className="text-first-color text-4xl">{textTitle}</h1>;
+  return <h1 className="text-first-color text-4xl max-w-3xl">{textTitle}</h1>;
 };
 
 export default Title;

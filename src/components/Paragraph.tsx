@@ -16,7 +16,7 @@ const Paragraph: FunctionComponent<ParagraphProps> = ({
   textColor,
 }) => {
   return (
-    <p className={`text-sm ${textColor} ${poppins.className}`}>
+    <p className={`text-sm md:text-base ${textColor} ${poppins.className}`}>
       {textParagraph}
     </p>
   );

@@ -6,15 +6,18 @@ const ProductsSection = () => {
   return (
     <section
       id="products-section"
-      className="px-2 py-8 w-full flex flex-col items-center gap-4"
+      className="w-full px-2 py-8 grid grid-cols-1 items-center place-items-center gap-4 md:grid-cols-2"
+      style={{ maxWidth: "1040px", margin: "0 auto" }}
     >
       <Link href="/products" className="w-full">
         <div
-          className="w-full flex items-center justify-center"
+          className="flex items-center justify-center"
           style={{
             backgroundImage: "url('/banner-products-tubos.png')",
             backgroundSize: "cover",
             minHeight: "225px",
+            maxWidth: "520px",
+            margin: "0 auto",
           }}
         >
           <SecondTitle textSecondTitle="Tubos" className="text-first-color " />
@@ -23,11 +26,13 @@ const ProductsSection = () => {
 
       <Link href="/products" className="w-full">
         <div
-          className="w-full flex items-center justify-center"
+          className=" flex items-center justify-center"
           style={{
             backgroundImage: "url('/banner-products-conexoes.png')",
             backgroundSize: "cover",
             minHeight: "225px",
+            maxWidth: "520px",
+            margin: "0 auto",
           }}
         >
           <SecondTitle
@@ -39,11 +44,13 @@ const ProductsSection = () => {
 
       <Link href="/products" className="w-full">
         <div
-          className="w-full flex items-center justify-center"
+          className=" flex items-center justify-center"
           style={{
             backgroundImage: "url('/banner-products-valvulas.png')",
             backgroundSize: "cover",
             minHeight: "225px",
+            maxWidth: "520px",
+            margin: "0 auto",
           }}
         >
           <SecondTitle
@@ -55,11 +62,13 @@ const ProductsSection = () => {
 
       <Link href="/products" className="w-full">
         <div
-          className="w-full flex items-center justify-center"
+          className=" flex items-center justify-center"
           style={{
             backgroundImage: "url('/banner-products-combate.png')",
             backgroundSize: "cover",
             minHeight: "225px",
+            maxWidth: "520px",
+            margin: "0 auto",
           }}
         >
           <SecondTitle
@@ -71,11 +80,13 @@ const ProductsSection = () => {
 
       <Link href="/products" className="w-full">
         <div
-          className="w-full flex items-center justify-center"
+          className="flex items-center justify-center"
           style={{
             backgroundImage: "url('/banner-products-medicao.png')",
             backgroundSize: "cover",
             minHeight: "225px",
+            maxWidth: "520px",
+            margin: "0 auto",
           }}
         >
           <SecondTitle

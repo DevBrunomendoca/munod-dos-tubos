@@ -8,7 +8,7 @@ const BannerProducts = () => {
       style={{
         backgroundImage: "url('/banner-products.png')",
         backgroundSize: "cover",
-        minHeight: "500px",
+        minHeight: "400px",
       }}
     >
       <SecondTitle
