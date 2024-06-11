@@ -16,6 +16,7 @@ const Contact: FunctionComponent = () => {
           height={0}
           sizes="100vh"
           style={{ width: "100%", minHeight: "75vh" }}
+          className="object-cover"
           alt="Banner Fale conosco"
           src="/banner-contact.png"
         />

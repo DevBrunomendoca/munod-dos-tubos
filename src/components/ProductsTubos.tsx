@@ -20,7 +20,7 @@ const ProductsTubos = () => {
         loop={true}
         slidesPerView={2}
         centeredSlides={false}
-        spaceBetween={10}
+        spaceBetween={0}
         autoplay={{
           delay: 4000,
           disableOnInteraction: false,
