@@ -15,7 +15,7 @@ const CardContact: FunctionComponent<CardContactProps> = ({
   textCard,
 }) => {
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className="flex flex-col items-center gap-2 w-full text-center">
       <Image
         width={40}
         height={43}
