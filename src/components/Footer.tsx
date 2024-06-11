@@ -27,7 +27,7 @@ const Footer = () => {
       </section>
 
       <section className="bg-second-color flex flex-col gap-4 px-2 py-4">
-        <Image src="/logo.png" alt="Logo" width={126} height={52} />
+        <Image src="/logo2.png" alt="Logo" width={126} height={52} />
         <Paragraph
           textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos, construção civil, industriais, saneamento básico e sistemas hidráulicos"
           textColor="text-first-color"
