@@ -1,16 +1,18 @@
 "use client";
 import Link from "next/link";
 import CloseIcon from "@mui/icons-material/Close";
-
-import { FunctionComponent } from "react";
+import { forwardRef } from "react";
 
 interface SideBarProps {
   onClick: () => void;
 }
 
-const SideBar: FunctionComponent<SideBarProps> = ({ onClick }) => {
+const SideBar = forwardRef<HTMLDivElement, SideBarProps>(({ onClick }, ref) => {
   return (
-    <div className="absolute z-10 right-0 w-4/6 h-full bg-first-color flex items-end flex-col px-3 py-5 animate-[showSideBar_.8s_ease-in-out]">
+    <div
+      ref={ref}
+      className="absolute z-20 right-0 w-4/6 h-full bg-first-color flex items-end flex-col px-3 py-5 animate-[showSideBar_.8s_ease-in-out]"
+    >
       <CloseIcon
         onClick={onClick}
         className="bg-first-color text-third-color cursor-pointer"
@@ -25,7 +27,7 @@ const SideBar: FunctionComponent<SideBarProps> = ({ onClick }) => {
             <Link href="/aboutus">Sobre Nós</Link>
           </li>
           <li onClick={onClick}>
-            <Link href="/product">Produtos</Link>
+            <Link href="/products">Produtos</Link>
           </li>
           <li onClick={onClick}>
             <Link href="/contact">Contato</Link>
@@ -35,6 +37,8 @@ const SideBar: FunctionComponent<SideBarProps> = ({ onClick }) => {
       <button>Text Button</button>
     </div>
   );
-};
+});
+
+SideBar.displayName = "SideBar";
 
 export default SideBar;
