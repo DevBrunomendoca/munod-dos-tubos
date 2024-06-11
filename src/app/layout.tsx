@@ -5,6 +5,13 @@ import "./global.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import { register } from "swiper/element/bundle";
+register();
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+
 const lato = Lato({
   weight: ["900"],
   subsets: ["latin"],

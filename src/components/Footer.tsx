@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-2">
+    <footer className="w-full">
       <section
         className="px-2 flex flex-col items-center justify-center gap-4"
         style={{
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <section className="bg-second-color flex flex-col gap-4 px-2">
+      <section className="bg-second-color flex flex-col gap-4 px-2 py-4">
         <Image src="/logo.png" alt="Logo" width={126} height={52} />
         <Paragraph
           textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos, construção civil, industriais, saneamento básico e sistemas hidráulicos"

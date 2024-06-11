@@ -9,7 +9,7 @@ const AboutUs = () => {
     <>
       <section className="px-2 pt-8 flex flex-col items-center gap-4">
         <SecondTitle
-          className="text-center"
+          className="text-center text-third-color"
           textSecondTitle="Vantagens exclusivas ao escolher nossos serviços!"
         />
         <div className=" w-full flex flex-wrap items-center justify-center justify-items-center gap-4">
@@ -43,7 +43,7 @@ const AboutUs = () => {
       <section className="px-2 py-8 flex flex-col items-start gap-4">
         <SecondTitle
           textSecondTitle="Conheça mais sobre à Mundo dos Tubos"
-          className="text-start"
+          className="text-start text-third-color"
         />
         <Paragraph
           textParagraph="Somos uma empresa líder na distribuição de produtos de alta qualidade. Nosso foco primordial reside na excelência, tanto em termos de produtos quanto de serviços. Com uma vasta gama de soluções para atender às variadas necessidades dos nossos clientes, combinamos inovação, qualidade e compromisso para proporcionar experiências excepcionais. Nossa dedicação em superar expectativas e garantir a satisfação do cliente é o que impulsiona nossa empresa a permanecer na vanguarda do mercado"
