@@ -95,7 +95,11 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <ButtonNav textButton="Entrar em Contato" href="/contact" />
+          <ButtonNav
+            className="hidden md:block"
+            textButton="Entrar em Contato"
+            href="/contact"
+          />
         </div>
         <MenuIcon
           onClick={() => setToggleMenu(!toggleMenu)}
