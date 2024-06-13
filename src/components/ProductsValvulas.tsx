@@ -70,7 +70,7 @@ const ProductsValvulas = () => {
                 textColor="text-second-color"
                 textParagraph={item.contentCard}
               />
-              <a href={item.href}>
+              <a target="_blank" href={item.href}>
                 <button className="bg-second-color text-first-color text-sm px-8 py-2 rounded-md hover:bg-fourth-color duration-500">
                   Orçameto
                 </button>
