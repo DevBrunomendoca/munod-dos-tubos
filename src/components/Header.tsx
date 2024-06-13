@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import SideBar from "./SideBar";
 import { Lato } from "next/font/google";
@@ -13,6 +13,7 @@ const lato = Lato({
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
+  const [isLoaded, setIsLoaded] = useState<boolean>(false);
 
   const sidebarRef = useRef<HTMLDivElement>(null);
 
@@ -26,27 +27,25 @@ const Header = () => {
     };
   }, [toggleMenu]);
 
-  const openMenu = () => {
+  const openMenu = useCallback(() => {
     setToggleMenu(true);
-  };
+  }, []);
 
-  const closeMenu = () => {
+  const closeMenu = useCallback(() => {
     setToggleMenu(false);
+  }, []);
 
+  const handleResize = useCallback(() => {
     window.innerWidth > 768 && setToggleMenu(false);
-  };
+  }, []);
 
   useEffect(() => {
-    const closeMenu = () => {
-      window.innerWidth > 768 && setToggleMenu(false);
-    };
-
-    closeMenu();
-    window.addEventListener("resize", closeMenu);
+    handleResize();
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", closeMenu);
+      window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [handleResize]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
