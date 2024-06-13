@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import SideBar from "./SideBar";
 import { Lato } from "next/font/google";
+import ButtonNav from "./ButtonNa";
 
 const lato = Lato({
   weight: ["700"],
@@ -94,9 +95,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="hidden md:block bg-second-color text-first-color px-8 py-3 rounded-md">
-            Entrar em contato
-          </button>
+          <ButtonNav textButton="Entrar em Contato" href="/contact" />
         </div>
         <MenuIcon
           onClick={() => setToggleMenu(!toggleMenu)}

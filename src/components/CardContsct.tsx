@@ -7,12 +7,14 @@ interface CardContactProps {
   iconCard: string;
   textCard: string;
   textButton: string;
+  hrefCard: string;
 }
 
 const CardContact: FunctionComponent<CardContactProps> = ({
   iconCard,
   textButton,
   textCard,
+  hrefCard,
 }) => {
   return (
     <div className="flex flex-col items-center gap-2 w-full text-center">
@@ -23,9 +25,11 @@ const CardContact: FunctionComponent<CardContactProps> = ({
         alt={`Icone ${textButton}`}
       />
       <Paragraph textParagraph={textCard} textColor="text-second-color" />
-      <button className="bg-second-color text-first-color px-12 py-3 rounded-md">
-        {textButton}
-      </button>
+      <a target="_blank" href={hrefCard}>
+        <button className="bg-second-color text-first-color px-12 py-3 rounded-md">
+          {textButton}
+        </button>
+      </a>
     </div>
   );
 };

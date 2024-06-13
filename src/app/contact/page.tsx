@@ -71,21 +71,25 @@ const Contact: FunctionComponent = () => {
             iconCard="/icone-tel.png"
             textCard="Ligue ou nos mande uma menssagem de texto."
             textButton="Telefone"
+            hrefCard="tel:+5562995342234"
           />
           <CardContact
             iconCard="/icon-wtpp.png"
             textCard="Entre em contato através do whatsapp."
             textButton="Whatsapp"
+            hrefCard="https://wa.link/cn46of"
           />
           <CardContact
             iconCard="/icon-insta2.png"
             textCard="Nos Conheça através das redes sociais."
             textButton="Instagra"
+            hrefCard="#"
           />
           <CardContact
             iconCard="/icon-email-b.png"
             textCard="Deixe seu feedback através do email."
             textButton="Email"
+            hrefCard="malito:mundodostubos@gmail.com"
           />
         </div>
         <div className="pt-8 w-full">
