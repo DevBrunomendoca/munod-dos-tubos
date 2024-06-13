@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta property="og:image" content="/banner-more-about2.png" />
+        <meta property="og:image" content="/banner-products-page.png" />
       </Head>
       <body className={lato.className}>
         <Header />
