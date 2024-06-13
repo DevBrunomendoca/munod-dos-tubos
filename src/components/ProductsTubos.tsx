@@ -61,6 +61,8 @@ const ProductsTubos = () => {
                 sizes="100vh"
                 alt="Banner Produto"
                 src={item.imgCard}
+                placeholder="blur"
+                blurDataURL={item.imgCard}
                 style={{ width: "100%", height: "auto" }}
               />
               <ThirdTitle textThirdTilte={item.titleCard} />

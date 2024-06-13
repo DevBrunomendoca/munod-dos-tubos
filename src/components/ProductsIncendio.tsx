@@ -64,6 +64,8 @@ const ProductsIncendio = () => {
                 alt="Banner Produto"
                 src={item.imgCard}
                 style={{ width: "100%", height: "auto" }}
+                placeholder="blur"
+                blurDataURL={item.imgCard}
               />
               <ThirdTitle textThirdTilte={item.titleCard} />
               <Paragraph

@@ -38,6 +38,7 @@ const About = () => {
             alt="Banner Sobbre Nós"
             src="/banner-about.png"
             className="object-cover"
+            priority
           />
         ) : (
           <Image
@@ -48,6 +49,7 @@ const About = () => {
             alt="Banner Sobbre Nós"
             src="/banner-about-desc.png"
             className="object-cover"
+            priority
           />
         )}
         <div className="absolute w-full top-4 flex flex-col items-start justify-center gap-4 px-2 h-full xl:max-w-7xl ml-auto mr-auto left-0 right-0 ">

@@ -36,6 +36,7 @@ const Products = () => {
             alt="Banner de produtos"
             src="/banner-products-page.png"
             className="object-cover"
+            priority
           />
         ) : (
           <Image
@@ -46,6 +47,7 @@ const Products = () => {
             alt="Banner de produtos"
             src="/banner-products-desc.png"
             className="object-cover"
+            priority
           />
         )}
         <div className="absolute top-4 flex flex-col items-start justify-center h-full px-2 xl:max-w-7xl ml-auto mr-auto left-0 right-0">

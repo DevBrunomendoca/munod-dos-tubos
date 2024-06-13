@@ -37,6 +37,7 @@ const Contact: FunctionComponent = () => {
             className="object-cover"
             alt="Banner Fale conosco"
             src="/banner-contact.png"
+            priority
           />
         ) : (
           <Image
@@ -47,6 +48,7 @@ const Contact: FunctionComponent = () => {
             className="object-cover"
             alt="Banner Fale conosco"
             src="/banner-contact-desc.png"
+            priority
           />
         )}
         <div className="absolute top-4 flex flex-col items-start justify-center h-full px-2 gap-2 xl:max-w-7xl ml-auto mr-auto left-0 right-0">

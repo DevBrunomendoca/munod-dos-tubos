@@ -30,6 +30,7 @@ const Home = () => {
           sizes="100vh"
           style={{ width: "100%", minHeight: "85vh" }}
           className="object-cover"
+          priority
         />
       ) : (
         <Image
@@ -40,6 +41,7 @@ const Home = () => {
           sizes="100vh"
           style={{ width: "100%", minHeight: "85vh" }}
           className="object-cover"
+          priority
         />
       )}
 
