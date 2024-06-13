@@ -89,7 +89,7 @@ const Contact: FunctionComponent = () => {
             iconCard="/icon-email-b.png"
             textCard="Deixe seu feedback através do email."
             textButton="Email"
-            hrefCard="malito:mundodostubos@gmail.com"
+            hrefCard="mailto:mundodostubos@gmail.com"
           />
         </div>
         <div className="pt-8 w-full">
