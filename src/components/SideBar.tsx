@@ -2,6 +2,7 @@
 import Link from "next/link";
 import CloseIcon from "@mui/icons-material/Close";
 import { forwardRef } from "react";
+import ButtonNav from "./ButtonNa";
 
 interface SideBarProps {
   onClick: () => void;
@@ -34,9 +35,7 @@ const SideBar = forwardRef<HTMLDivElement, SideBarProps>(({ onClick }, ref) => {
           </li>
         </ul>
       </nav>
-      <button className="bg-second-color text-first-color px-8 py-3 rounded-md">
-        Entrar em contato
-      </button>
+      <ButtonNav textButton="Entrar em Contato" href="/contact" />
     </div>
   );
 });
