@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-4 max-w-sm">
           <Image src="/logo2.png" alt="Logo" width={126} height={52} />
           <Paragraph
-            textParagraph="A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos"
+            textParagraph="A mundo dos tubos é uma empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos"
             textColor="text-first-color"
           />
         </div>

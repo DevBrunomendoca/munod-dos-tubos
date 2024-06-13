@@ -21,7 +21,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Mundo do Tubos",
   description:
-    "A mundo dos tubos e empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos",
+    "A mundo dos tubos é uma empresa especializada em vendas tubos e conexões industriais para diversos segmentos como construção civil, industriais, saneamento básico e sistemas hidráulicos",
   keywords:
     "Tubos de aço carbono, Tubos de aço inoxidáve, Tubos de PVC, Tubos de cobre, Tubos de alumínio, Tubos de ferro fundido, Tubos de PEAD, Tubos de PPR, Válvulas de controle, Válvulas de retenção, Conexões de aço carbono, Conexões de aço inoxidável, Mangueiras de incêndio, Extintores de incêndio, Manômetros, Medidores de nível",
 };
