@@ -72,9 +72,11 @@ const ProductsIncendio = () => {
                 textColor="text-second-color"
                 textParagraph={item.contentCard}
               />
-              <button className="bg-second-color text-first-color text-sm px-8 py-2 rounded-md">
-                Orçameto
-              </button>
+              <a href={item.href}>
+                <button className="bg-second-color text-first-color text-sm px-8 py-2 rounded-md hover:bg-fourth-color duration-500">
+                  Orçameto
+                </button>
+              </a>
             </div>
           </SwiperSlide>
         ))}

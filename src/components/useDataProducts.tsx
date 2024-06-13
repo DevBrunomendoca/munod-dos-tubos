@@ -78,7 +78,7 @@ export default function useProducts() {
       id: "1",
       imgCard: "/products/valvulas-1.png",
       titleCard: "Válvulas de controle",
-      href: "",
+      href: "https://wa.link/o39d41",
       contentCard:
         "Utilizadas para regular o fluxo de fluidos em sistemas industriais.",
     },
@@ -86,14 +86,14 @@ export default function useProducts() {
       id: "2",
       imgCard: "/products/valvulas-2.png",
       titleCard: "Válvulas de retenção",
-      href: "",
+      href: "https://wa.link/cyhcok",
       contentCard: "Impedem o fluxo reverso de fluidos em tubulações.",
     },
     {
       id: "3",
       imgCard: "/products/valvulas-3.png",
       titleCard: "Válvulas de esfera",
-      href: "",
+      href: "https://wa.link/dxcedu",
       contentCard:
         "Controlam o fluxo de fluidos através da atuação de um campo magnético.",
     },
@@ -101,7 +101,7 @@ export default function useProducts() {
       id: "4",
       imgCard: "/products/valvulas-4.png",
       titleCard: "Válvulas globo",
-      href: "",
+      href: "https://wa.link/pcmhzl",
       contentCard:
         "Oferecem controle preciso do fluxo em sistemas de alta pressão e temperatura.",
     },
@@ -109,7 +109,7 @@ export default function useProducts() {
       id: "5",
       imgCard: "/products/valvulas-5.png",
       titleCard: " Válvulas borboleta",
-      href: "",
+      href: "https://wa.link/b4m7sj",
       contentCard:
         "Compactas e leves, as válvulas borboleta são ideais para aplicações onde espaço e peso são críticos.",
     },
@@ -117,7 +117,7 @@ export default function useProducts() {
       id: "6",
       imgCard: "/products/valvulas-6.png",
       titleCard: "Válvulas de segurança",
-      href: "",
+      href: "https://wa.link/is0pjf",
       contentCard:
         "Protegem sistemas contra pressões excessivas, liberando fluído quando necessário.",
     },
@@ -125,7 +125,7 @@ export default function useProducts() {
       id: "7",
       imgCard: "/products/valvulas-7.png",
       titleCard: "Válvulas solenoides",
-      href: "",
+      href: "https://wa.link/8lno92",
       contentCard:
         "Controlam o fluxo de fluidos através da atuação de um campo magnético.",
     },
@@ -133,7 +133,7 @@ export default function useProducts() {
       id: "8",
       imgCard: "/products/valvulas-8.png",
       titleCard: "Válvulas de agulha",
-      href: "",
+      href: "https://wa.link/vbxqmw",
       contentCard:
         "Proporciona controle preciso do fluxo em aplicações de alta pressão e baixo volume.",
     },
@@ -143,7 +143,7 @@ export default function useProducts() {
       id: "1",
       imgCard: "/products/conexoes-1.png",
       titleCard: "Conexões de aço carbono",
-      href: "",
+      href: "https://wa.link/00tqbx",
       contentCard:
         "Permitem a conexão de tubos de aço carbono em sistemas industriais e comerciais.",
     },
@@ -151,14 +151,14 @@ export default function useProducts() {
       id: "2",
       imgCard: "/products/conexoes-2.png",
       titleCard: "Conexões de aço inoxidável",
-      href: "",
+      href: "https://wa.link/hnw9dw",
       contentCard: "Oferecem resistência à corrosão em ambientes agressivos.",
     },
     {
       id: "3",
       imgCard: "/products/conexoes-3.png",
       titleCard: "Conexões de PVC",
-      href: "",
+      href: "https://wa.link/550yxu",
       contentCard:
         "Proporcionam uma conexão segura e durável em sistemas de PVC.",
     },
@@ -166,7 +166,7 @@ export default function useProducts() {
       id: "4",
       imgCard: "/products/conexoes-4.png",
       titleCard: "Conexões de cobre",
-      href: "",
+      href: "https://wa.link/hpfwzd",
       contentCard:
         "Permitem a conexão de tubos de cobre em sistemas de água e gás.",
     },
@@ -174,7 +174,7 @@ export default function useProducts() {
       id: "5",
       imgCard: "/products/conexoes-5.png",
       titleCard: "Conexões de ferro maleável",
-      href: "",
+      href: "https://wa.link/hccw1h",
       contentCard:
         "Robustas e confiáveis, as conexões de ferro maleável são adequadas para sistemas de água, gás e vapor.",
     },
@@ -182,7 +182,7 @@ export default function useProducts() {
       id: "6",
       imgCard: "/products/conexoes-6.png",
       titleCard: "Conexões de latão",
-      href: "",
+      href: "https://wa.link/1zustg",
       contentCard:
         "Oferecem boa resistência à corrosão e são ideais para aplicações em sistemas hidráulicos e pneumáticos.",
     },
@@ -190,7 +190,7 @@ export default function useProducts() {
       id: "7",
       imgCard: "/products/conexoes-7.png",
       titleCard: "Conexões de polipropileno",
-      href: "",
+      href: "https://wa.link/mlnagq",
       contentCard:
         "Leves e resistentes, as conexões de polipropileno são utilizadas em sistemas de água potável e produtos químicos.",
     },
@@ -198,7 +198,7 @@ export default function useProducts() {
       id: "8",
       imgCard: "/products/conexoes-8.png",
       titleCard: "Conexões de PEAD",
-      href: "",
+      href: "https://wa.link/wc7yl9",
       contentCard: "Proporcionam uma conexão segura em sistemas de PEAD.",
     },
   ];
@@ -207,7 +207,7 @@ export default function useProducts() {
       id: "1",
       imgCard: "/products/incendio-1.png",
       titleCard: "Mangueiras de incêndio",
-      href: "",
+      href: "https://wa.link/34nyv7",
       contentCard:
         "Essenciais para o combate a incêndios, as mangueiras são projetadas para fornecer água com pressão adequada.",
     },
@@ -215,7 +215,7 @@ export default function useProducts() {
       id: "2",
       imgCard: "/products/incendio-2.png",
       titleCard: "Extintores de incêndio",
-      href: "",
+      href: "https://wa.link/irtyym",
       contentCard:
         "Dispositivos portáteis para extinguir pequenos incêndios em emergências.",
     },
@@ -223,7 +223,7 @@ export default function useProducts() {
       id: "3",
       imgCard: "/products/incendio-3.png",
       titleCard: "Sprinklers",
-      href: "",
+      href: "https://wa.link/1zvogx",
       contentCard:
         "Sistema de combate a incêndios automático que libera água quando detecta calor excessivo.",
     },
@@ -231,7 +231,7 @@ export default function useProducts() {
       id: "4",
       imgCard: "/products/incendio-4.png",
       titleCard: "Sistemas de detecção de incêndio",
-      href: "",
+      href: "https://wa.link/8juwc7",
       contentCard:
         "Equipamentos para detectar e alertar sobre incêndios em estágios iniciais.",
     },
@@ -241,7 +241,7 @@ export default function useProducts() {
       id: "1",
       imgCard: "/products/medicao-1.png",
       titleCard: "Manômetros",
-      href: "",
+      href: "https://wa.link/5hepdx",
       contentCard:
         "Instrumentos para medir a pressão de fluidos em sistemas industriais.",
     },
@@ -249,7 +249,7 @@ export default function useProducts() {
       id: "2",
       imgCard: "/products/medicao-2.png",
       titleCard: "Termômetros",
-      href: "",
+      href: "https://wa.link/877o4v",
       contentCard:
         "Utilizados para medir a temperatura de líquidos e gases em processos industriais.",
     },
@@ -257,7 +257,7 @@ export default function useProducts() {
       id: "3",
       imgCard: "/products/medicao-3.png",
       titleCard: "Medidores de vazão",
-      href: "",
+      href: "https://wa.link/nrakv2",
       contentCard:
         "Instrumentos para medir a taxa de fluxo de fluidos em tubulações.",
     },
@@ -265,7 +265,7 @@ export default function useProducts() {
       id: "4",
       imgCard: "/products/medicao-4.png",
       titleCard: "Medidores de nível",
-      href: "",
+      href: "https://wa.link/yzl6ui",
       contentCard:
         "Utilizados para medir o nível de líquidos em tanques e reservatórios.",
     },
@@ -273,7 +273,7 @@ export default function useProducts() {
       id: "5",
       imgCard: "/products/medicao-5.png",
       titleCard: "Instrumentos de calibração",
-      href: "",
+      href: "https://wa.link/ne17j0",
       contentCard:
         "Utilizados para medir o nível de líquidos em tanques e reservatórios.",
     },
