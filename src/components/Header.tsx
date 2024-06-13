@@ -100,7 +100,7 @@ const Header = () => {
         </div>
         <MenuIcon
           onClick={() => setToggleMenu(!toggleMenu)}
-          className={`bg-first-color text-third-color cursor-pointer md:hidden ${
+          className={`block bg-first-color text-third-color cursor-pointer md:hidden ${
             isLoaded ? "hidden-initially" : ""
           }`}
           fontSize="large"

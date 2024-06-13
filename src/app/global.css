@@ -5,6 +5,8 @@
 body {
   background-color: #fefefe;
 }
-.hidden-initially {
-  display: none;
+@media (min-width: 768px) {
+  .hidden-initially {
+    display: none;
+  }
 }
