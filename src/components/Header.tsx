@@ -17,16 +17,6 @@ const Header = () => {
 
   const sidebarRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const hidden = () => {
-      toggleMenu ? (document.body.style.overflow = "hidden") : "";
-    };
-    hidden();
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [toggleMenu]);
-
   const openMenu = useCallback(() => {
     setToggleMenu(true);
   }, []);
@@ -40,6 +30,17 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
+    const hidden = () => {
+      toggleMenu ? (document.body.style.overflow = "hidden") : "";
+    };
+    hidden();
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [toggleMenu]);
+
+  useEffect(() => {
+    setIsLoaded(true);
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => {
@@ -98,8 +99,10 @@ const Header = () => {
           </button>
         </div>
         <MenuIcon
-          onClick={openMenu}
-          className="bg-first-color text-third-color cursor-pointer md:hidden "
+          onClick={() => setToggleMenu(!toggleMenu)}
+          className={`bg-first-color text-third-color cursor-pointer md:hidden ${
+            isLoaded ? "hidden-initially" : ""
+          }`}
           fontSize="large"
         />
       </header>
