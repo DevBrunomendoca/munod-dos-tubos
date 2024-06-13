@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import Head from "next/head";
+import CustomHead from "@/components/CunstonHead";
 
 const lato = Lato({
   weight: ["900"],
@@ -33,9 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta property="og:image" content="/banner-products-page.png" />
-      </Head>
+      <CustomHead />
       <body className={lato.className}>
         <Header />
         {children}
