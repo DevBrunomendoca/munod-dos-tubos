@@ -26,7 +26,7 @@ const CardContact: FunctionComponent<CardContactProps> = ({
       />
       <Paragraph textParagraph={textCard} textColor="text-second-color" />
       <a target="_blank" href={hrefCard}>
-        <button className="bg-second-color text-first-color px-12 py-3 rounded-md">
+        <button className="bg-second-color text-first-color px-12 py-3 rounded-md hover:bg-fourth-color duration-500">
           {textButton}
         </button>
       </a>
