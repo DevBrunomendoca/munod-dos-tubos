@@ -60,7 +60,10 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-2">
             <Image width={25} height={25} alt="" src="/icon-insta.png" />
-            <Paragraph textParagraph="@intagram" textColor="text-first-color" />
+            <Paragraph
+              textParagraph="@instagram"
+              textColor="text-first-color"
+            />
           </div>
         </div>
         <div>
