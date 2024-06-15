@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <Image width={25} height={25} alt="" src="/icon-location.png" />
             <Paragraph
-              textParagraph="Rua m22 qd.23 lt.30 resid.Monte Cristo Trindade-GO"
+              textParagraph="Rua M22 QD.23 LT.30 Residencial Monte Cristo - Trindade-GO"
               textColor="text-first-color"
             />
           </div>
